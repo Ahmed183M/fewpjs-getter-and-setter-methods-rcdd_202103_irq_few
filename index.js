@@ -16,14 +16,14 @@ class Circle{
   }
   
   set diameter(value){
-    return this.radius = value/2;
+    this.radius = value/2;
   }
   
   set circumference(value){
-    return this.radius = value/(2 * Math.PI());
+    this.radius = value/(2 * Math.PI());
   }
   
   set area(value){
-    return this.radius * 2;
+    this.radius = Math.sqrt(value/Math.PI());
   }
 }
